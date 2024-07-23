@@ -1,0 +1,23 @@
+.home-page > div{
+    width: 50%;
+    float: left;
+}
+.home-page-img{
+    width: 251px;
+}
+.home-page-title{
+    padding-left: 100px;
+}
+.left-img{
+    padding: 0;
+    margin-left: -100px;
+}
+.text-danger{
+    padding-bottom: 50px;
+}
+.btn-danger{
+    
+}
+.bx{
+    padding: 50px 50px;
+}
