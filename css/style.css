@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .home-page > div{
     width: 50%;
     float: left;
@@ -21,3 +22,38 @@
 .bx{
     padding: 50px 50px;
 }
+=======
+body{
+    width: 1400px;
+    margin: 0 auto;
+}
+/*  Navigation menyu*/
+.navbar{
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.navbar-items{
+    padding-left: 160px;
+}
+
+.navbar-brand{
+    font-family: 'SF Pro Display';
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #282A30;
+}
+
+.navbar-nav .nav-item .nav-link{    
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22.08px;
+    letter-spacing: 1px;
+    padding: 0 60px 0;
+    color: #282A30;
+}
+/* /Navigation menyu */
+>>>>>>> Stashed changes
