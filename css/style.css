@@ -1,35 +1,13 @@
 <<<<<<< Updated upstream
-.home-page > div{
-    width: 50%;
-    float: left;
-}
-.home-page-img{
-    width: 251px;
-}
-.home-page-title{
-    padding-left: 100px;
-}
-.left-img{
-    padding: 0;
-    margin-left: -100px;
-}
-.text-danger{
-    padding-bottom: 50px;
-}
-.btn-danger{
-    
-}
-.bx{
-    padding: 50px 50px;
-}
-=======
 body{
     width: 1400px;
     margin: 0 auto;
 }
+
 /*  Navigation menyu*/
 .navbar{
     background-color: rgba(240, 248, 255, 0);
+    width: 1400px;
 }
 
 .navbar-items{
@@ -56,4 +34,33 @@ body{
     color: #282A30;
 }
 /* /Navigation menyu */
+.home-page{
+    width: 1400px;
+}
+
+.home-page > div{
+    width: 50%;
+    float: left;
+}
+.home-page-img{
+    width: 251px;
+}
+.home-page-title{
+    padding-left: 100px;
+}
+.left-img{
+    padding: 0;
+    margin-left: -100px;
+}
+.text-danger{
+    padding-bottom: 50px;
+}
+.btn-danger{
+    
+}
+.bx{
+    padding: 50px 50px;
+}
+=======
+
 >>>>>>> Stashed changes
