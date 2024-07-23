@@ -3,7 +3,10 @@ body{
     width: 1400px;
     margin: 0 auto;
 }
-
+html{
+    width: 1400px;
+    margin: 0 auto;
+}
 /*  Navigation menyu*/
 .navbar{
     background-color: rgba(240, 248, 255, 0);
