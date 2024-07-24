@@ -37,6 +37,8 @@ html{
     color: #282A30;
 }
 /* /Navigation menyu */
+
+/* Home page */
 .home-page{
     width: 1400px;
 }
@@ -65,5 +67,88 @@ html{
     padding: 50px 50px;
 }
 =======
+/* /Home page */
+
+/* About Section */
+.about{
+    width: 1400px;   
+}
+
+.about__img1{
+    position: absolute;
+    width: 440px;
+    height: 305px;
+    margin-top: 647px;
+    margin-left: 152px;
+}
+
+.about__img2{
+    position: absolute;
+    width: 205px;
+    height: 180px;
+    margin-top: 830px;
+    margin-left: 19px;
+}
+
+.about-img3{
+    position: absolute;
+    width: 483px;
+    height: 723px;
+    margin-top: 310px;
+    margin-left: 60px;
+}
+
+.about__img4{
+    position: absolute;
+    width: 482.07px;
+    height: 306.29px;
+    margin-top: 799px;
+    margin-left: 152px;
+}
+.about__title{
+    font-family: 'Montserrat';
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73.14px;
+    text-align: left;
+    color: #282A30;
+    padding-top: 400px;
+}
+
+.about__subtitle{
+    font-family: 'Montserrat';
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 121.9px;
+    text-align: left;
+    color: white;
+    text-shadow: 0px 0px 4px rgb(0, 0, 0);
+
+}  
+
+.about__text{
+    width: 518px;
+    height: 128px;
+    font-family: 'Nunito';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 60.01px;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #282A3080;
+}
+
+.about .row .button{
+    width: 225px;
+    height: 77px;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.82px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+/* /About section */
 
 >>>>>>> Stashed changes
