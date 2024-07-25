@@ -151,6 +151,7 @@ html{
 }
 /* /About section */
 
+/*Furnitute section */
 .furniture-page{
     padding: 400px 0px 0px 20px;
 }
@@ -162,7 +163,9 @@ html{
 .furniture-img{
     padding-left: 40px;
 }
-.card{
+.card-1,
+.card-2,
+.card-3{
     position: absolute;
     border: none;
     background-color: aliceblue;
@@ -191,3 +194,77 @@ html{
     display: inline-block;
     border: none;
 }
+/* /Furniture section */
+
+/* Collection section */
+.collection{
+    margin-top: 1000px;
+    width: 1400px;
+}
+
+.collection__title{
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48.76px;
+    text-align: left;
+    color: #282A30;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.collection__subtitle{
+    padding-top: 0;
+    margin-top: 0;
+    font-family: 'Montserrat';
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 121.9px;
+    text-align: left;
+    color: white;
+    text-shadow: 0px 0px 4px #282A30;
+}
+
+.collection__control span{
+    padding-left: 700px;
+    font-size: 65px;
+}
+
+.collection__control span i{
+    padding-left: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.cards > div{
+    width: 25%;
+    float: left;
+}
+.collection__card{
+    height: 427px;
+    border: none;
+}
+
+.collection__img1{
+    width: 278px;
+    height: 312px;
+}
+
+.collection-card__title{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.82px;
+    text-align: center;
+    color: #282A30;
+}
+
+.collection-card__subtitle{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.82px;
+    text-align: center;
+    color: #282A304D;
+}
+
+/* /Collection Section */
