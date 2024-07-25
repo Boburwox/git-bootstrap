@@ -138,7 +138,9 @@ html{
     color: #282A3080;
 }
 
-.about .row .button{
+.about .row .button,
+.try-now-section .button
+{
     width: 225px;
     height: 77px;
     font-family: 'Montserrat';
@@ -194,11 +196,6 @@ html{
     display: inline-block;
     border: none;
 }
-<<<<<<< HEAD
-/*tyr-now*/
-.try__subtitle{
-    margin-top: 700px;
-=======
 /* /Furniture section */
 
 /* Collection section */
@@ -220,87 +217,12 @@ html{
 .collection__subtitle{
     padding-top: 0;
     margin-top: 0;
->>>>>>> 8c0150457b7ba0a6b3c51706cdb59d1f65f04044
     font-family: 'Montserrat';
     font-size: 100px;
     font-weight: 700;
     line-height: 121.9px;
     text-align: left;
     color: white;
-<<<<<<< HEAD
-    text-shadow: 0px 0px 4px rgb(0, 0, 0);
-    padding-left: 40px;
-}
-.clearfix{
-    clear: both;
-}
-.heading-try{
-    font-size: 90px;
-    font-weight: 700;
-    padding-left: 40px;
-}
-.try-now-section > div{
-    float: left;
-}
-.img-sec{
-    margin-top: 700px;
-    width: 500px;
-    margin-left: 300px;
-}
-.title-try{
-    margin-top: 100px;
-}
-hr{ 
-    margin-top: 1600px;
-    width: 1200px;
-}
-.try-now-section{
-    width: 1400px;
-    margin: 0;
-}
-/* footer*/ 
-.footer-cards{
-    display: flex;
-}
-.footer-card-1{
-    padding-left: 100px;
-    width: 200px;
-    height: 200px;
-}
-.footer-card-2{
-    padding-left: 120px;
-    width: 260px;
-    height: 200px;
-}
-.footer-card-3{
-    padding-left: 100px;
-    width: 200px;
-    height: 200px;
-}
-.footer-card-4{
-    padding-left: 120px;
-    width: 300px;
-    height: 200px;
-}
-.card-text{
-    padding-top: 20px;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21.6px;
-    letter-spacing: 1px;
-    text-align: left;
-    color: #282A30CC;
-}
-.card-title{
-    font-family: SF Pro Display;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 31.2px;
-    letter-spacing: 1px;
-    text-align: left;
-
-}
-=======
     text-shadow: 0px 0px 4px #282A30;
 }
 
@@ -348,4 +270,75 @@ hr{
 }
 
 /* /Collection Section */
->>>>>>> 8c0150457b7ba0a6b3c51706cdb59d1f65f04044
+
+/*tyr-now*/
+.try__subtitle{
+    margin-top: 200px;
+    font-family: 'Montserrat';
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 121.9px;
+    text-align: left;
+    color: white;
+    text-shadow: 0px 0px 4px #282A30;
+    padding-left: 20px;
+}
+.clearfix{
+    clear: both;
+}
+.heading-try{
+    font-size: 90px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+.try-now-section > div{
+    float: left;
+}
+.img-sec{
+    margin-top: 200px;
+    width: 500px;
+    margin-left: 300px;
+}
+.title-try{
+    margin-top: 100px;
+    
+}
+hr{ 
+    margin-top: 1600px;
+    width: 1200px;
+}
+.try-now-section{
+    width: 1400px;
+    margin: 0;
+}
+/* footer*/ 
+footer{
+    width: 1400px;
+}
+.footer-cards > div{
+    padding: 50px 0;
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    height: 200px;
+}
+
+.card-text{
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #282A30CC;
+}
+.card-title{
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31.2px;
+    letter-spacing: 1px;
+    text-align: left;
+    
+}
+
