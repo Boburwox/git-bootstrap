@@ -349,6 +349,109 @@ footer{
     text-align: left;
     
 }
+@media(max-width: 767px) {
+    /* Home page */
+    .img-home-page,
+    .left-img{
+        display: none;
+    }
+    .home-page,.navbar{
+        width: 58rem;
+    }
+    .home-page > div{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .text-danger{
+        font-size: 2.5rem;
+    }
+    .paragraph{
+        font-size: 3.5rem;
+    }
+
+    .home-page-title > button,.icon{
+        width: 20rem;
+        height: 80px;
+        font-size: 1.5rem;
+    }
+    .home-page-title .icon{
+        width: 300px;
+        font-size: 1.5rem;
+    }
+    
+    /* /home page */
+
+    /* About section */
+    .about{
+        margin-bottom: 35rem;
+    }
+    .about .row{
+        display: block;
+    }
+    .about .row > div{
+        margin-top: 100px;
+       margin-left: 120px;
+    }
+    .about .row .col-6 > h1,
+    .about .row .col-6 > p,
+    .about .row .col-6 > button{
+        text-align: center;
+        font-size: 5rem;
+    }
+    .about .row .col-6 > p{
+        margin-left: 0.6rem;
+        font-size: 2rem;
+        width: 45rem;
+    }
+    .about .row .col-6 > button{
+        margin: 3rem 0rem 0rem 12rem;
+        width: 20rem;
+        font-size: 2rem;
+    }
+    .col-6-point{
+        position: absolute;
+        top: 50rem;  
+        left: 4rem;      
+    }
+
+    /* /About section */
+
+    /* Furniture section */
+    .furniture-page{
+        margin-left: 2rem;
+    }
+    
+    .card-1{
+        position: absolute;
+        top: 139rem;
+    }
+    .card-2{
+        position: absolute;
+        top: 145rem;
+        margin-left: 20rem;
+    }
+    .card-3{
+        position: absolute;
+        top: 133rem;
+        margin-left: 25rem;
+    }
+    /* / Furniture section */
+    
+    /* Collection section */
+    .collection{
+        margin: 500px 40px 0px;        
+    }
+    .collection__control span{        
+        margin-left: -23rem;
+    }
+
+    .cards > div{
+        width: 100%;
+        float: left;
+    }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 992px) {
     .navbar{
         background-color: rgba(240, 248, 255, 0);
@@ -447,153 +550,153 @@ footer{
     }
     
     /* Collection section */
-.collection{
-    margin-top: 1000px;
-    width: 1400px;
-}
+    .collection{
+        margin-top: 1000px;
+        width: 1400px;
+    }
 
-.collection__title{
-    font-family: 'Montserrat';
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 48.76px;
-    text-align: left;
-    color: #282A30;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    margin-left: 200px;
-}
-.collection__subtitle{
-    padding-top: 0;
-    margin-top: 0;
-    font-family: 'Montserrat';
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 121.9px;
-    text-align: center;
-    color: white;
-    text-shadow: 0px 0px 4px #282A30;
-    margin-left: 200px;
-}
+    .collection__title{
+        font-family: 'Montserrat';
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 48.76px;
+        text-align: left;
+        color: #282A30;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        margin-left: 200px;
+    }
+    .collection__subtitle{
+        padding-top: 0;
+        margin-top: 0;
+        font-family: 'Montserrat';
+        font-size: 100px;
+        font-weight: 700;
+        line-height: 121.9px;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 0px 4px #282A30;
+        margin-left: 200px;
+    }
 
-.collection__control span{
-    padding-left: 700px;
-    font-size: 65px;
-}
+    .collection__control span{
+        padding-left: 700px;
+        font-size: 65px;
+    }
 
-.collection__control span i{
-    padding-left: 0;
-    margin-top: 0;
-    padding-top: 0;
-}
+    .collection__control span i{
+        padding-left: 0;
+        margin-top: 0;
+        padding-top: 0;
+    }
 
-.cards > div{
-    width: 50%;
-    float: left;
-}
-.collection__card{
-    height: 427px;
-    border: none;
-}
+    .cards > div{
+        width: 50%;
+        float: left;
+    }
+    .collection__card{
+        height: 427px;
+        border: none;
+    }
 
-.collection__img1{
-    width: 278px;
-    height: 312px;
-    margin-left: 200px;
-}
+    .collection__img1{
+        width: 278px;
+        height: 312px;
+        margin-left: 200px;
+    }
 
-.collection-card__title{
-    font-family: 'Montserrat';
-    font-size: 26px;
-    font-weight: 800;
-    line-height: 26.82px;
-    text-align: center;
-    color: #282A30;
-    margin-left: 200px;
-}
+    .collection-card__title{
+        font-family: 'Montserrat';
+        font-size: 26px;
+        font-weight: 800;
+        line-height: 26.82px;
+        text-align: center;
+        color: #282A30;
+        margin-left: 200px;
+    }
 
-.collection-card__subtitle{
-    font-family: 'Montserrat';
-    font-size: 27px;
-    font-weight: 500;
-    line-height: 26.82px;
-    text-align: center;
-    color: #282A304D;
-    margin-left: 200px;
-}
-footer{
-    width: 900px;
-}
-.footer-cards > div{
-    padding: 50px 0;
-    width: 50%;
-    float: left;
-    box-sizing: border-box;
-    height: 200px;
-}
+    .collection-card__subtitle{
+        font-family: 'Montserrat';
+        font-size: 27px;
+        font-weight: 500;
+        line-height: 26.82px;
+        text-align: center;
+        color: #282A304D;
+        margin-left: 200px;
+    }
+    footer{
+        width: 900px;
+    }
+    .footer-cards > div{
+        padding: 50px 0;
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+        height: 200px;
+    }
 
-.card-text{
-    padding-top: 20px;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21.6px;
-    letter-spacing: 1px;
-    text-align: left;
-    color: #282A30CC;
-}
-.card-title{
-    font-family: SF Pro Display;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 31.2px;
-    letter-spacing: 1px;
-    text-align: left;
-    
-}
-.footer-cards{
-    padding-left: 250px;
-    margin-right: -400px;
-}
-/*tyr-now*/
-.try__subtitle{
-    margin-top: 200px;
-    font-family: 'Montserrat';
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 121.9px;
-    text-align: left;
-    color: white;
-    text-shadow: 0px 0px 4px #282A30;
-    padding-left: 20px;
-}
-.clearfix{
-    clear: both;
-}
-.heading-try{
-    font-size: 80px;
-    font-weight: 700;
-    padding-left: 20px;
-}
-.try-now-section > div{
-    float: left;
-}
-.img-sec{
-    margin-top: 200px;
-    width: 500px;
-    margin-left: 400px;
-}
-.title-try{
-    margin-top: 100px;
-    margin-left: 100px;
-}
-hr{ 
-    margin-top: 1600px;
-    width: 1200px;
-}
-.try-now-section{
-    width: 1400px;
-    margin: 0;
-}
+    .card-text{
+        padding-top: 20px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.6px;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #282A30CC;
+    }
+    .card-title{
+        font-family: SF Pro Display;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 31.2px;
+        letter-spacing: 1px;
+        text-align: left;
+        
+    }
+    .footer-cards{
+        padding-left: 250px;
+        margin-right: -400px;
+    }
+    /*tyr-now*/
+    .try__subtitle{
+        margin-top: 200px;
+        font-family: 'Montserrat';
+        font-size: 100px;
+        font-weight: 700;
+        line-height: 121.9px;
+        text-align: left;
+        color: white;
+        text-shadow: 0px 0px 4px #282A30;
+        padding-left: 20px;
+    }
+    .clearfix{
+        clear: both;
+    }
+    .heading-try{
+        font-size: 80px;
+        font-weight: 700;
+        padding-left: 20px;
+    }
+    .try-now-section > div{
+        float: left;
+    }
+    .img-sec{
+        margin-top: 200px;
+        width: 500px;
+        margin-left: 400px;
+    }
+    .title-try{
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    hr{ 
+        margin-top: 1600px;
+        width: 1200px;
+    }
+    .try-now-section{
+        width: 1400px;
+        margin: 0;
+    }
 }
 
 
